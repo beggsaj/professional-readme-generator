@@ -30,18 +30,6 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'toc',
-        message: 'toc',
-        validate: tocInput => {
-            if (tocInput) {
-                return true;
-            } else {
-                return false;
-            }
-        }
-    },
-    {
-        type: 'input',
         name: 'install',
         message: 'What are the steps required to install your project?',
         validate: installInput => {
@@ -151,14 +139,16 @@ function writeToFile(fileName, data) {
 // Created function to generate readme data
 function generateReadMe(data) {
     return `
-# Title: 
-${data.title}
+# ${data.title}
 
-## Descritption: 
+## Description: 
 ${data.description}
 
 ## Table of Contents: 
-${data.toc}
+* [Installation](#instal)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
 ## Installation: 
 ${data.install}

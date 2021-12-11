@@ -48,7 +48,14 @@ function generateReadMe(data) {
     `
 }
 
-
+// TODO: Create a function to initialize app
+function init() {
+    inquirer.prompt(questions)
+        .then(function (userInput) {
+            console.log(userInput)
+            writeToFile('README.md', generateReadMe(userInput))
+        })
+}
 
 // Function call to initialize app
 init();

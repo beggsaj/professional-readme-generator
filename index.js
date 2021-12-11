@@ -18,6 +18,30 @@ const questions = [{
     },
     {
         type: 'input',
+        name: 'github',
+        message: 'What is your github username?',
+        validate: descriptionInput => {
+            if (descriptionInput) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
+        validate: descriptionInput => {
+            if (descriptionInput) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
         name: 'description',
         message: 'Provide a description of your repository:',
         validate: descriptionInput => {
@@ -145,7 +169,7 @@ function generateReadMe(data) {
 ${data.description}
 
 ## Table of Contents: 
-* [Installation](#instal)
+* [Installation](#install)
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
@@ -173,6 +197,13 @@ ${data.contributing}
 
 ## Tests: 
 ${data.tests}
+
+##Questions:
+
+If you have additional questions please reach out to me using one of the methods below.
+
+* Github: ${data.github} https://github.com/${data.github}
+* Email: ${data.email}
     `
 }
 

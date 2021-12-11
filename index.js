@@ -77,9 +77,10 @@ const questions = [{
         }
     },
     {
-        type: 'input',
+        type: 'checkbox',
         name: 'liscense',
-        message: 'install',
+        message: 'Please select the applicable liscense:',
+        choices: ['GNU AGPLv3','GNU GPLv3','GNU LGPLv3','Mozilla Public License 2.0','Apache License 2.0','MIT License','Boost Software License 1.0','The Unlicense'],
         validate: liscenseInput => {
             if (liscenseInput) {
                 return true;

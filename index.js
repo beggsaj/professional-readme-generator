@@ -27,7 +27,115 @@ const questions = [{
                 return false;
             }
         }
-    }
+    },
+    {
+        type: 'input',
+        name: 'Table of Contents',
+        message: 'TOC',
+        validate: detailsInput => {
+            if (detailsInput) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'Installation',
+        message: 'install',
+        validate: detailsInput => {
+            if (detailsInput) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'Usage',
+        message: 'install',
+        validate: detailsInput => {
+            if (detailsInput) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'Credits',
+        message: 'install',
+        validate: detailsInput => {
+            if (detailsInput) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'Liscense',
+        message: 'install',
+        validate: detailsInput => {
+            if (detailsInput) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'Badges',
+        message: 'install',
+        validate: detailsInput => {
+            if (detailsInput) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'Features',
+        message: 'install',
+        validate: detailsInput => {
+            if (detailsInput) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'Contributing',
+        message: 'install',
+        validate: detailsInput => {
+            if (detailsInput) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'Tests',
+        message: 'install',
+        validate: detailsInput => {
+            if (detailsInput) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    },
 ];
 
 // TODO: Create a function to write README file

@@ -18,7 +18,7 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'details',
+        name: 'description',
         message: 'provide your project details',
         validate: detailsInput => {
             if (detailsInput) {
@@ -66,7 +66,7 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'Credits',
+        name: 'credits',
         message: 'install',
         validate: detailsInput => {
             if (detailsInput) {
@@ -78,7 +78,7 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'Liscense',
+        name: 'liscense',
         message: 'install',
         validate: detailsInput => {
             if (detailsInput) {
@@ -90,7 +90,7 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'Badges',
+        name: 'badges',
         message: 'install',
         validate: detailsInput => {
             if (detailsInput) {
@@ -102,7 +102,7 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'Features',
+        name: 'features',
         message: 'install',
         validate: detailsInput => {
             if (detailsInput) {
@@ -114,7 +114,7 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'Contributing',
+        name: 'contributing',
         message: 'install',
         validate: detailsInput => {
             if (detailsInput) {
@@ -126,7 +126,7 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'Tests',
+        name: 'tests',
         message: 'install',
         validate: detailsInput => {
             if (detailsInput) {
@@ -149,28 +149,39 @@ function writeToFile(fileName, data) {
 
 // Created function to generate readme data
 function generateReadMe(data) {
-    return `${data.title}
+    return `
+# Title: 
+${data.title}
 
-    ## Details: 
-    ${data.details}
-    ## Table of Contents: 
-    ${data.toc}
-    ## Installation: 
-    ${data.install}
-    ## Usage: 
-    ${data.usage}
-    ## Credits: 
-    ${data.usage}
-    ## Liscense: 
-    ${data.usage}
-    ## Badges: 
-    ${data.usage}
-    ## Features: 
-    ${data.usage}
-    ## Contributing: 
-    ${data.usage}
-    ## Tests: 
-    ${data.usage}
+## Descritption: 
+${data.description}
+
+## Table of Contents: 
+${data.toc}
+
+## Installation: 
+${data.install}
+
+## Usage: 
+${data.usage}
+
+## Credits: 
+${data.credits}
+
+## Liscense: 
+${data.liscense}
+
+## Badges: 
+${data.badges}
+
+## Features: 
+${data.features}
+
+## Contributing: 
+${data.contributing}
+
+## Tests: 
+${data.tests}
     `
 }
 

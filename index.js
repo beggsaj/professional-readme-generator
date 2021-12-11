@@ -6,7 +6,7 @@ const inquirer = require('inquirer')
 const questions = [{
         type: 'input',
         name: 'title',
-        message: 'What is your repository named?',
+        message: 'What is the name of your repository?',
         validate: nameInput => {
             if (nameInput) {
                 return true;
@@ -19,9 +19,9 @@ const questions = [{
     {
         type: 'input',
         name: 'description',
-        message: 'provide your project details',
-        validate: detailsInput => {
-            if (detailsInput) {
+        message: 'Provide a description of your repository:',
+        validate: descriptionInput => {
+            if (descriptionInput) {
                 return true;
             } else {
                 return false;
@@ -43,9 +43,9 @@ const questions = [{
     {
         type: 'input',
         name: 'install',
-        message: 'install',
-        validate: detailsInput => {
-            if (detailsInput) {
+        message: 'What are the steps required to install your project?',
+        validate: installInput => {
+            if (installInput) {
                 return true;
             } else {
                 return false;
@@ -55,9 +55,9 @@ const questions = [{
     {
         type: 'input',
         name: 'usage',
-        message: 'install',
-        validate: detailsInput => {
-            if (detailsInput) {
+        message: 'Provide instructions and examples for use:',
+        validate: usageInput => {
+            if (usageInput) {
                 return true;
             } else {
                 return false;
@@ -67,9 +67,9 @@ const questions = [{
     {
         type: 'input',
         name: 'credits',
-        message: 'install',
-        validate: detailsInput => {
-            if (detailsInput) {
+        message: 'List any collaborators, third-party assets, or tutorials used:',
+        validate: creditsInput => {
+            if (creditsInput) {
                 return true;
             } else {
                 return false;
@@ -80,8 +80,8 @@ const questions = [{
         type: 'input',
         name: 'liscense',
         message: 'install',
-        validate: detailsInput => {
-            if (detailsInput) {
+        validate: liscenseInput => {
+            if (liscenseInput) {
                 return true;
             } else {
                 return false;
@@ -92,8 +92,8 @@ const questions = [{
         type: 'input',
         name: 'badges',
         message: 'install',
-        validate: detailsInput => {
-            if (detailsInput) {
+        validate: badgesInput => {
+            if (badgesInput) {
                 return true;
             } else {
                 return false;
@@ -103,9 +103,9 @@ const questions = [{
     {
         type: 'input',
         name: 'features',
-        message: 'install',
-        validate: detailsInput => {
-            if (detailsInput) {
+        message: 'Please list any relevant features here:',
+        validate: featuresInput => {
+            if (featuresInput) {
                 return true;
             } else {
                 return false;
@@ -115,9 +115,9 @@ const questions = [{
     {
         type: 'input',
         name: 'contributing',
-        message: 'install',
-        validate: detailsInput => {
-            if (detailsInput) {
+        message: 'Guidelines for contributing:',
+        validate: contributingInput => {
+            if (contributingInput) {
                 return true;
             } else {
                 return false;
@@ -127,9 +127,9 @@ const questions = [{
     {
         type: 'input',
         name: 'tests',
-        message: 'install',
-        validate: detailsInput => {
-            if (detailsInput) {
+        message: 'Please provide tests for your application and how to run them:',
+        validate: testsInput => {
+            if (testsInput) {
                 return true;
             } else {
                 return false;

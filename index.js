@@ -30,10 +30,10 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'Table of Contents',
-        message: 'TOC',
-        validate: detailsInput => {
-            if (detailsInput) {
+        name: 'toc',
+        message: 'toc',
+        validate: tocInput => {
+            if (tocInput) {
                 return true;
             } else {
                 return false;
@@ -42,7 +42,7 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'Installation',
+        name: 'install',
         message: 'install',
         validate: detailsInput => {
             if (detailsInput) {
@@ -54,7 +54,7 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'Usage',
+        name: 'usage',
         message: 'install',
         validate: detailsInput => {
             if (detailsInput) {
@@ -153,6 +153,24 @@ function generateReadMe(data) {
 
     ## Details: 
     ${data.details}
+    ## Table of Contents: 
+    ${data.toc}
+    ## Installation: 
+    ${data.install}
+    ## Usage: 
+    ${data.usage}
+    ## Credits: 
+    ${data.usage}
+    ## Liscense: 
+    ${data.usage}
+    ## Badges: 
+    ${data.usage}
+    ## Features: 
+    ${data.usage}
+    ## Contributing: 
+    ${data.usage}
+    ## Tests: 
+    ${data.usage}
     `
 }
 

@@ -154,7 +154,7 @@ function generateReadMe(data) {
 # ${data.title}
 
 ## Licensing:
-https://img.shields.io/badge/license-MIT-green
+[[!liscense]https://img.shields.io/badge/license-${data.liscense}-green](https://shields.io)
 
 ## Description: 
 ${data.description}

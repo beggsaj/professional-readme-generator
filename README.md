@@ -1,11 +1,11 @@
 
-# t
+# jf
 
 ## Licensing:
-https://img.shields.io/badge/license-MIT-green
+[[!liscense]https://img.shields.io/badge/license-MIT-green](https://shields.io)
 
 ## Description: 
-t
+fj
 
 ## Table of Contents: 
 * [Installation](#install)
@@ -18,30 +18,30 @@ t
 * [Questions](#questions)
 
 ## Installation: 
-t
+fj
 
 ## Usage: 
-t
+fj
 
 ## Credits: 
-t
+fj
 
 ## Liscense: 
-This application is covered under the agpl-3.0 liscense.
+This application is covered under the MIT liscense.
 
 ## Features: 
-t
+f
 
 ## Contributing: 
-t
+f
 
 ## Tests: 
-t
+f
 
 ## Questions:
 
 If you have additional questions please reach out to me using one of the methods below.
 
-* Github: https://github.com/t
-* Email: t
+* Github: https://github.com/fjf
+* Email: fj
     

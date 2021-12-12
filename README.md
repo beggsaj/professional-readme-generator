@@ -1,11 +1,11 @@
 
-# t
+# j
 
 ## Licensing:
-[![license](https://img.shields.io/badge/license-MIT License-green)](https://shields.io)
+[![license](https://img.shields.io/badge/license-undefined-blue)](https://shields.io)
 
 ## Description: 
-t
+j
 
 ## Table of Contents: 
 * [Installation](#install)
@@ -18,30 +18,30 @@ t
 * [Questions](#questions)
 
 ## Installation: 
-t
+j
 
 ## Usage: 
-t
+j
 
 ## Credits: 
-t
+j
 
 ## Liscense: 
-MIT License
+Mozilla Public License 2.0
 
 ## Features: 
-t
+d
 
 ## Contributing: 
-t
+f
 
 ## Tests: 
-t
+f
 
 ## Questions:
 
 If you have additional questions please reach out to me using one of the methods below.
 
-* Github: https://github.com/t
-* Email: t
+* Github: https://github.com/j
+* Email: j
     

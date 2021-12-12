@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+// packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer')
 
-// TODO: Create an array of questions for user input
+//array of questions for user input
 const questions = [{
         type: 'input',
         name: 'title',
@@ -20,10 +20,11 @@ const questions = [{
         type: 'input',
         name: 'github',
         message: 'What is your github username?',
-        validate: descriptionInput => {
-            if (descriptionInput) {
+        validate: githubInput => {
+            if (githubInput) {
                 return true;
             } else {
+                console.log('enter your username')
                 return false;
             }
         }
@@ -32,10 +33,11 @@ const questions = [{
         type: 'input',
         name: 'email',
         message: 'What is your email address?',
-        validate: descriptionInput => {
-            if (descriptionInput) {
+        validate: emailInput => {
+            if (emailInput) {
                 return true;
             } else {
+                console.log('enter your email')
                 return false;
             }
         }
@@ -48,6 +50,7 @@ const questions = [{
             if (descriptionInput) {
                 return true;
             } else {
+                console.log('provide a description')
                 return false;
             }
         }
@@ -60,6 +63,7 @@ const questions = [{
             if (installInput) {
                 return true;
             } else {
+                console.log('enter installation instructions')
                 return false;
             }
         }
@@ -72,6 +76,7 @@ const questions = [{
             if (usageInput) {
                 return true;
             } else {
+                console.log('enter usage examples')
                 return false;
             }
         }
@@ -84,6 +89,7 @@ const questions = [{
             if (creditsInput) {
                 return true;
             } else {
+                console.log('list relevant collaborators')
                 return false;
             }
         }
@@ -97,6 +103,7 @@ const questions = [{
             if (liscenseInput) {
                 return true;
             } else {
+                console.log('please select correct liscense')
                 return false;
             }
         }
@@ -109,6 +116,7 @@ const questions = [{
             if (featuresInput) {
                 return true;
             } else {
+                console.log('enter relevant features')
                 return false;
             }
         }
@@ -121,6 +129,7 @@ const questions = [{
             if (contributingInput) {
                 return true;
             } else {
+                console.log('enter guidelines for contributing')
                 return false;
             }
         }
@@ -133,6 +142,7 @@ const questions = [{
             if (testsInput) {
                 return true;
             } else {
+                console.log('enter tests')
                 return false;
             }
         }

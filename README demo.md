@@ -1,11 +1,11 @@
 
-# df
+# professional readme generator
 
 ## Licensing:
-[![liscense](https://img.shields.io/badge/license--green)](https://shields.io)
+[![liscense](https://img.shields.io/badge/license-MIT-green)](https://shields.io)
 
 ## Description: 
-f
+to create a readme
 
 ## Table of Contents: 
 * [Installation](#install)
@@ -18,30 +18,33 @@ f
 * [Questions](#questions)
 
 ## Installation: 
-f
+clone the existing github repo
 
 ## Usage: 
-f
+it can be used to input information about your project and generate a readme
 
 ## Credits: 
-f
+na
 
 ## Liscense: 
-This application is covered under the  liscense.
+This application is covered under the MIT liscense.
 
 ## Features: 
-f
+na
 
 ## Contributing: 
-f
+contact me
 
 ## Tests: 
-f
+na
 
 ## Questions:
 
 If you have additional questions please reach out to me using one of the methods below.
 
-* Github: https://github.com/f
-* Email: f
-    
+* Github: https://github.com/beggsaj
+* Email: beggsaj@gmail.com
+
+## Recording:
+
+https://watch.screencastify.com/v/NWNujgu8uiBfFvq7Djdn

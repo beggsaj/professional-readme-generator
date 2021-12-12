@@ -1,11 +1,11 @@
 
-# jf
+# g
 
 ## Licensing:
-[[!liscense]https://img.shields.io/badge/license-MIT-green](https://shields.io)
+[![liscense](https://img.shields.io/badge/license-MIT-green)](https://shields.io)
 
 ## Description: 
-fj
+g
 
 ## Table of Contents: 
 * [Installation](#install)
@@ -18,30 +18,30 @@ fj
 * [Questions](#questions)
 
 ## Installation: 
-fj
+g
 
 ## Usage: 
-fj
+g
 
 ## Credits: 
-fj
+g
 
 ## Liscense: 
 This application is covered under the MIT liscense.
 
 ## Features: 
-f
+ t
 
 ## Contributing: 
-f
+t
 
 ## Tests: 
-f
+t
 
 ## Questions:
 
 If you have additional questions please reach out to me using one of the methods below.
 
-* Github: https://github.com/fjf
-* Email: fj
+* Github: https://github.com/g
+* Email: g
     

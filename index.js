@@ -103,18 +103,6 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'badges',
-        message: 'install',
-        validate: badgesInput => {
-            if (badgesInput) {
-                return true;
-            } else {
-                return false;
-            }
-        }
-    },
-    {
-        type: 'input',
         name: 'features',
         message: 'Please list any relevant features here:',
         validate: featuresInput => {
@@ -151,19 +139,22 @@ const questions = [{
     },
 ];
 
-// TODO: Create a function to write README file
+//function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err)
             throw err;
-        console.log('test')
+        console.log('README complete!')
     })
 }
 
-// Created function to generate readme data
+// function to generate readme data
 function generateReadMe(data) {
     return `
 # ${data.title}
+
+## Licensing:
+[![license](https://img.shields.io/badge/license-${data.licensing}-blue)](https://shields.io)
 
 ## Description: 
 ${data.description}
@@ -172,7 +163,11 @@ ${data.description}
 * [Installation](#install)
 * [Usage](#usage)
 * [Credits](#credits)
-* [License](#license)
+* [Liscense](#liscense)
+* [Features](#features)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## Installation: 
 ${data.install}
@@ -186,9 +181,6 @@ ${data.credits}
 ## Liscense: 
 ${data.liscense}
 
-## Badges: 
-${data.badges}
-
 ## Features: 
 ${data.features}
 
@@ -198,16 +190,16 @@ ${data.contributing}
 ## Tests: 
 ${data.tests}
 
-##Questions:
+## Questions:
 
 If you have additional questions please reach out to me using one of the methods below.
 
-* Github: ${data.github} https://github.com/${data.github}
+* Github: https://github.com/${data.github}
 * Email: ${data.email}
     `
 }
 
-// TODO: Create a function to initialize app
+//function to initialize app
 function init() {
     inquirer.prompt(questions)
         .then(function (userInput) {

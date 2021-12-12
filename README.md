@@ -1,8 +1,8 @@
 
-# test
+# t
 
 ## Licensing:
-[![license](https://img.shields.io/badge/license-undefined-blue)](https://shields.io)
+[![license](https://img.shields.io/badge/license-MIT License-green)](https://shields.io)
 
 ## Description: 
 t
@@ -27,7 +27,7 @@ t
 t
 
 ## Liscense: 
-GNU AGPLv3
+MIT License
 
 ## Features: 
 t
@@ -42,6 +42,6 @@ t
 
 If you have additional questions please reach out to me using one of the methods below.
 
-* Github: https://github.com/tets
+* Github: https://github.com/t
 * Email: t
     

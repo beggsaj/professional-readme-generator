@@ -1,11 +1,11 @@
 
-# j
+# t
 
 ## Licensing:
-[![license](https://img.shields.io/badge/license-undefined-blue)](https://shields.io)
+https://img.shields.io/badge/license-MIT-green
 
 ## Description: 
-j
+t
 
 ## Table of Contents: 
 * [Installation](#install)
@@ -18,30 +18,30 @@ j
 * [Questions](#questions)
 
 ## Installation: 
-j
+t
 
 ## Usage: 
-j
+t
 
 ## Credits: 
-j
+t
 
 ## Liscense: 
-Mozilla Public License 2.0
+This application is covered under the agpl-3.0 liscense.
 
 ## Features: 
-d
+t
 
 ## Contributing: 
-f
+t
 
 ## Tests: 
-f
+t
 
 ## Questions:
 
 If you have additional questions please reach out to me using one of the methods below.
 
-* Github: https://github.com/j
-* Email: j
+* Github: https://github.com/t
+* Email: t
     

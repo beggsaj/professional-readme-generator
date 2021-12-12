@@ -92,7 +92,7 @@ const questions = [{
         type: 'checkbox',
         name: 'liscense',
         message: 'Please select the applicable liscense:',
-        choices: ['GNU AGPLv3','GNU GPLv3','GNU LGPLv3','Mozilla Public License 2.0','Apache License 2.0','MIT License','Boost Software License 1.0','The Unlicense'],
+        choices: ['agpl-3.0','gpl-3.0','lgpl-3.0','mpl-2.0','Apache-2.0','MIT','BSL-1.0','Unlicense'],
         validate: liscenseInput => {
             if (liscenseInput) {
                 return true;
@@ -154,7 +154,7 @@ function generateReadMe(data) {
 # ${data.title}
 
 ## Licensing:
-[![license](https://img.shields.io/badge/license-${data.license}-blue)](https://shields.io)
+https://img.shields.io/badge/license-MIT-green
 
 ## Description: 
 ${data.description}
@@ -179,7 +179,7 @@ ${data.usage}
 ${data.credits}
 
 ## Liscense: 
-${data.liscense}
+This application is covered under the ${data.liscense} liscense.
 
 ## Features: 
 ${data.features}
